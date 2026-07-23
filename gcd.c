@@ -18,7 +18,7 @@ int main() {
     printf("Enter two unsigned integers: ");
     scanf("%u %u", &x, &y);
 
-    printf("GCD of %u and %u is %u\n", x, y, gcd(x, y));
+    
     
     float a;
     int repcount=2000000;
@@ -30,6 +30,7 @@ int main() {
     }
     t2=clock();
     timeTaken = ( (float)(t2 - t1) / (float)CLOCKS_PER_SEC ) / (float)repcount;
+    printf("GCD of %u and %u is %u\n", x, y, gcd(x, y));
     printf("Time taken = %f seconds\n", timeTaken);
 
     return 0;
