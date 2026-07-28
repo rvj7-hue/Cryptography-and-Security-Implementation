@@ -18,6 +18,8 @@
 // 2) Cha cha implementation with dynamic allotment of state (4x4 matrix)
 // 3) Cha cha optimised implementation (sequential vs parallel) in sequential, each state/matrix is processed one at a time.
 
+//The code was written with the help of Copilot and https://cr.yp.to/chacha.html.
+
 // Rotate left 32-bit value
 #define ROTL32(v, n) ((v << n) | (v >> (32 - n))) //This is the rotation function 
 
