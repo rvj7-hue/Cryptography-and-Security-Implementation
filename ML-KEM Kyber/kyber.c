@@ -4,7 +4,7 @@
 #include <x86intrin.h>
 #include <stdint.h>
 #include "keygen_enc_dec.h"
-#include "fips202.h" // Includes shake128 routines. This is taken from the kyber reference implementation. 
+#include "fips202.h" // Includes shake128 routines. This fips202 file is taken from the kyber reference implementation. 
 
 #include "Poly.h"
 
